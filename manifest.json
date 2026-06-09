@@ -1,0 +1,33 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "short_name": "Comune di Lavagna",
+  "name": "Comune di Lavagna",
+  "description": "Sito istituzionale del Comune di Lavagna",
+  "icons": [
+	{
+        "src": "/wp-content/themes/design-comuni-wordpress-theme-child/assets/img/logo_96.png",
+	"type": "image/png",
+        "sizes": "96x96",
+	"purpose": "any maskable"
+	},
+	{
+        "src": "/wp-content/themes/design-comuni-wordpress-theme-child/assets/img/logo_192.png",
+	"type": "image/png",
+        "sizes": "192x192",
+	"purpose": "any maskable"
+	},
+	{
+        "src": "/wp-content/themes/design-comuni-wordpress-theme-child/assets/img/logo_512.png",
+	"type": "image/png",
+        "sizes": "512x512",
+	"purpose": "any maskable"
+	}
+     ],
+  "start_url": "/",
+  "display": "minimal-ui",
+  "scope": "/",
+  "theme_color": "#007A52",
+  "background_color": "#ffffff",
+  "prefer_related_applications":false
+}

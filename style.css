@@ -1,0 +1,456 @@
+/*
+Theme Name:   DCI Child Theme v2
+Description:  Design Comuni Italia Child Theme - compatibile con tema padre v1.12.7
+Author:       STS srl
+Template:     design-comuni-italia
+Version:      2.0.0
+Text Domain:  design_comuni_italia_child
+*/
+
+:root {
+	--dci-darkblue: #003366;
+	--dci-midblue: #0055AA;
+	--dci-lightblue: #0066CC;
+	--dci-veilblue: #0077EE11; /* with alpha channel */
+	--dci-white: #FFFFFF;
+	--dci-grey: #CCCCCC;
+	
+	--bs-link-color: #0066CC;
+	--bs-link-hover-color: #003366;
+}
+
+.t-primary {
+	color: var(--dci-darkblue);
+}
+
+.login h1 a {
+		text-indent: 0;
+}
+/*
+.evidence-section h2 { 
+	color: var(--dci-white) !important;
+}
+*/
+section#contenuti-correlati,
+.has-bg-grey {
+    background-color: var(--dci-veilblue);
+}
+.it-page-section .card.card-teaser-info {
+    border-left: 8px solid var(--dci-veilblue);
+}
+.cmp-carousel__title {
+	color: var(--dci-darkblue);
+}
+
+.accordion-header .accordion-button,
+.accordion-header .accordion-button::after {
+	color: var(--dci-midblue);
+}
+
+.it-header-wrapper .it-header-slim-wrapper .it-header-slim-wrapper-content a:active {
+  background-color: var(--dci-lightblue);
+  box-shadow: none !important;
+}
+.it-header-slim-wrapper {
+    background-color: var(--dci-darkblue);
+}
+.it-header-center-wrapper {
+    background-color: var(--dci-midblue);
+}
+.navbar {
+	background-color: var(--dci-midblue);
+}
+.navbar .close-div .close-menu {
+		color: #ffffff;
+}
+@media (max-width: 991.8px) {
+	.it-header-wrapper .navbar-collapsable .logo-hamburger,
+	.navbar .navbar-collapsable .navbar-nav li a.nav-link {
+		color: var(--dci-midblue);
+	}
+	.navbar .navbar-collapsable .navbar-nav li a.nav-link.active {
+		border-left: 3px solid var(--dci-midblue);
+	}
+	.it-header-wrapper .navbar .navbar-collapsable .navbar-nav li a.nav-link.active {
+		background-color: var(--dci-veilblue);
+	}
+}
+@media (min-width: 992px) {
+	.map-wrapper.map-column {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.card.card-teaser {
+		/*height: calc(100% - 16px);*/ /*** mt-3 ***/
+	}
+	.it-header-navbar-wrapper ,
+	.navbar, .navbar > * {
+		background-color: var(--dci-midblue);
+	}
+	.navbar.it-navscroll-wrapper .link-list-wrapper ul li a.active span {
+		color: var(--dci-lightblue);
+		font-weight: bold;
+	}
+	.navbar.it-navscroll-wrapper .link-list-wrapper ul li a.active {
+		border-left: 2px solid var(--dci-midblue);
+	}
+}
+aside .cmp-navscroll .navbar.it-navscroll-wrapper .link-list-wrapper ul li a.active {
+    border-left: var(--dci-midblue);
+}
+
+.link-list-wrapper ul li a span,
+.link-list-wrapper ul li a:hover:not(.disabled) span,
+.evidence-section .list-item.active:hover span, 
+.useful-links-section .list-item.active:hover span,
+.cmp-navscroll .navbar.it-navscroll-wrapper .link-list-wrapper .accordion .accordion-header .accordion-button {
+	color: var(--dci-darkblue);
+}
+
+.search-modal .modal-title .search-link svg {
+    fill: var(--dci-midblue);
+}
+.search-modal .form-group label {
+  opacity: 1;
+}
+.search-modal .searches-list li a {
+		color: var(--dci-midblue);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--dci-lightblue);
+    border-color: var(--dci-lightblue);
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: var(--dci-midblue);
+    box-shadow: inset 0 0 0 2px var(--dci-lightblue);
+}
+.btn-primary.focus, .btn-primary:focus, .btn-outline-primary.focus, .btn-outline-primary:focus {
+    box-shadow: inset 0 0 0 1px var(--dci-midblue), 0 0 0 .25rem var(--dci-lightblue) !important;
+}
+
+.it-calendar-wrapper .it-header-block-title {
+	background-color: var(--dci-midblue);
+}
+
+.card .card-body .category-top {
+		margin-bottom: 0.5rem;
+}
+.card .card-body .category-top a.category,
+.row-calendar .it-calendar-wrapper .card .card-text a {
+    color: var(--dci-midblue);
+}
+.card a.read-more {
+  bottom: 16px;
+}
+
+.row-calendar .it-calendar-wrapper .card .card-text a:hover {
+    color: var(--dci-darkblue);
+}
+.row-calendar .it-calendar-wrapper .card .card-text img {
+	width:30%;
+	height:auto;
+}
+
+.card .card-body .card-title.h5, .card .card-body h5.card-title {
+  margin-bottom: 0.5rem;
+}
+.card .card-body p {
+	margin-bottom: 0.125rem;
+	font-size: 0.95rem;
+}
+.card .card-body p.h5 {
+	margin-bottom: 0.5rem;
+	font-weight: 600;
+	font-size: 1.25rem;
+}
+.card .card-body p.h6 {
+	margin-bottom: 0.5rem;
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+.card.card-teaser .card-body .card-text {
+	margin-top: 0.5rem;
+}
+
+.it-hero-wrapper {
+    background-color: transparent !important;
+}
+
+.point-list-wrapper .point-list .point-list-aside.point-list-primary,
+.point-list-wrapper .point-list .point-list-aside {
+    color: var(--dci-midblue);
+    border-color: var(--dci-midblue);
+}
+.point-list-wrapper .point-list .point-list-aside.point-list-primary:after {
+    background-color: var(--dci-midblue);
+}
+
+.form-check [type=checkbox]:checked+label::after {
+    border-color: var(--dci-midblue);
+    background-color: var(--dci-midblue);
+}
+
+.rating:not(:checked)>label:hover svg, .rating:not(:checked)>label:hover~label svg, .rating>input:checked~label svg {
+    fill: var(--dci-midblue);
+}
+
+.figure.img-full img {
+  height: auto;
+  /* max-height: 600px; */
+}
+
+.bg-primary {
+    background-color: var(--dci-midblue) !important;
+}
+
+.btn-primary, .btn-primary.disabled, .btn-primary:disabled {
+    /*background-color: var(--dci-lightblue);*/
+    background-color: #0066CC;
+    color: #fff;
+    border-color: var(--dci-midblue);
+}
+.btn-primary:hover {
+    /*background-color: var(--dci-midblue);*/
+    background-color: #0055AA;
+    color: #fff;
+    border-color: var(--dci-darkblue);
+}
+.btn-outline-primary {
+	color: var(--dci-lightblue);
+    box-shadow: inset 0 0 0 2px var(--dci-lightblue);
+}
+.btn-outline-primary span {
+	color: var(--dci-lightblue);
+}
+.btn-outline-primary:hover {
+	color: var(--dci-darkblue);
+    box-shadow: inset 0 0 0 2px var(--dci-darkblue);
+}
+.btn-outline-primary:hover span {
+	color: var(--dci-darkblue);
+}
+
+
+.chip:not(.chip-disabled) {
+    border-color: var(--dci-midblue);
+}
+.chip .chip-label {
+	color: var(--dci-midblue);
+}
+.chip:hover:not(.chip-disabled) {
+	background: var(--dci-darkblue);
+    border-color: var(--dci-darkblue);
+}
+.chip:is(a):hover:not(.chip-disabled) {
+	background-color: var(--dci-midblue);
+}
+
+.btn-dropdown {
+    color: var(--dci-midblue);
+}
+.btn-dropdown .icon {
+    fill: var(--dci-midblue);
+}
+.btn-dropdown:hover {
+    color: var(--dci-darkblue);
+}
+.btn-dropdown:hover .icon {
+    fill: var(--dci-darkblue);
+}
+
+
+.t-primary,
+a, a.read-more,
+.cmp-breadcrumbs .breadcrumb-container .breadcrumb .breadcrumb-item a {
+    color: var(--dci-midblue);
+}
+.icon-primary,
+a .icon, a.read-more .icon {
+    fill: var(--dci-midblue) !important;
+}
+footer a .icon, footer a.read-more .icon {
+    fill: var(--dci-white) !important;
+}
+
+a:hover, a.read-more:hover, a:hover > .t-primary,
+.cmp-breadcrumbs .breadcrumb-container .breadcrumb .breadcrumb-item a:hover {
+    color: var(--dci-darkblue);
+}
+a:hover .icon, a.read-more:hover .icon {
+    fill: var(--dci-darkblue) !important;
+}
+footer a:hover .icon, footer a.read-more:hover .icon {
+    fill: hsla(0,0%,100%,.5) !important;
+}
+
+.evidence-section .list-item.active span, .useful-links-section .list-item.active span  {
+    color: var(--dci-midblue) !important;
+}
+.img-responsive-wrapper .img-responsive .img-wrapper img {
+	background-color: var(--dci-midblue);
+}
+.it-grid-item-wrapper.it-grid-item-overlay .img-responsive-wrapper::after {
+		background-color: rgb(0,0,0,0.25);
+}
+
+.it-carousel-wrapper .splide__pagination button.splide__pagination__page {
+  width: 48px;
+  height: 48px;
+
+}
+.it-carousel-wrapper .splide__pagination button {
+	background-color: var(--bs-light);	
+}
+.it-carousel-wrapper .splide__pagination button.is-active {
+	background-color: var(--dci-lightblue);	
+}
+
+.it-footer-main {
+    background-color: var(--dci-darkblue);	
+}
+
+.card .icon, .card .categoryicon-top .icon {
+    fill: var(--dci-midblue);
+}
+
+article ul,
+.nested-list ul {
+	list-style: circle;
+	padding-left: 2.5rem;
+}
+article ol,
+.nested-list ol {
+	list-style: decimal;
+	padding-left: 2.5rem;
+}
+article p+ul {
+		margin-top: -.5rem;
+}
+article ul+p {
+		margin-top: 1rem;
+}
+
+/*
+.callout.note,
+.callout.note .callout-inner,
+.callout.note .callout-title span
+{
+    border-color: var(--dci-midblue);
+}
+.callout.note .callout-title,
+.callout.note a
+{
+    color: var(--dci-midblue);
+}
+.callout.note .icon,
+.callout.note .callout-title .icon {
+    fill: var(--dci-midblue);
+}
+*/
+
+.img-fluid {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+  
+.card .card-body p.subtitle-small {
+	padding-left: 1.5rem;
+	font-style: italic;
+  margin-top: 1rem;
+}
+
+
+/*** For Mauve/AGID 2024 ***/
+/*
+header a:focus, footer a:focus, 
+header button:focus, footer button:focus 
+{
+		border: 2px solid #ffffff;
+}
+main a:focus, main button:focus,
+.search-form button:focus
+{
+		border: 2px solid #FF3300 !important;
+}
+*/
+
+header a:focus, footer a:focus,
+header button:focus, footer button:focus,
+main a:focus, main button:focus,
+.search-form button:focus
+{
+	border-style: solid;
+	border-width: 3px;
+	border-color: #000 !important;
+	box-shadow: 0 0 0 3px #000 !important;
+	outline: 3px solid #fff !important;
+	outline-offset: 3px;
+}
+
+/*.card .card-body,*/
+.cmp-hero,
+.dropdown:not(.it-user-wrapper),
+.accordion-item .button-wrapper,
+.steppers-nav,
+.modal .form-group label,
+.form-rating .form-group label,
+.form-group label,
+.form-rating .step,
+a.read-more,
+.it-header-wrapper .navbar-collapsable .logo-hamburger {
+	background-color: #ffffff;
+}
+a.btn-outline-primary {
+	background-color: #ffffff;
+}
+a[class*=btn-outline-],
+a[class*=btn-outline-]:hover {
+		text-decoration: underline;
+		background-color: #ffffff;
+}
+.it-user-wrapper.dropdown a .icon {
+ fill: #fff !important;	
+}
+
+.search-form {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 -1rem 1rem -1rem;
+}
+.search-form .cmp-input-search {
+  flex: 0 1 100%;
+  padding: 0 1rem;
+}
+
+button.clean-input {
+	display: none;
+}
+
+/**********/
+
+
+/* ── Nowtice alert banner — pulsante Dettagli ─────────────────────────── */
+.home-message.orange .btn-outline-white,
+.home-message.red    .btn-outline-white {
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+}
+.home-message.orange .btn-outline-white:hover,
+.home-message.red    .btn-outline-white:hover {
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+}
+.home-message.yellow .btn-outline-black {
+    color: #000;
+    border: 2px solid #000;
+    background: transparent;
+}
+.home-message.yellow .btn-outline-black:hover {
+    background: rgba(0,0,0,0.08);
+    color: #000;
+}
