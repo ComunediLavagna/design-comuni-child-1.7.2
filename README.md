@@ -85,24 +85,5 @@ Il sito è replicabile in locale tramite [LocalWP](https://localwp.com):
 
 ---
 
-## Manutenzione
-
-| Attività | Chi | Frequenza |
-|---|---|---|
-| Aggiornamento contenuti (notizie, eventi, servizi) | Comune | Continua |
-| Aggiornamento dati TARI | Comune | Annuale |
-| Caricamento delibere e atti | Comune | Al bisogno |
-| Aggiornamento tema parent | STS S.r.l. | Al rilascio nuova versione |
-| Backup | STS S.r.l. | Automatico (vedi contratto) |
-
----
-
-## Fornitore tecnico
-
-**STS S.r.l.** — Savona
-Hosting, manutenzione e deploy in produzione.
-
----
-
 *Comune di Lavagna — Settore III, Ufficio CED*
 *Riferimento: m.traversone@comune.lavagna.ge.it*
